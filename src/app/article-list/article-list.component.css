@@ -1,0 +1,119 @@
+/* article-list.component.css */
+.article-list {
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .article-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .article-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .article-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .article-title {
+    font-size: 20px;
+  }
+  
+  .article-summary {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .read-more-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .read-more-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Media query for smaller screens (e.g., tablets) */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  /* Media query for even smaller screens (e.g., smartphones) */
+  @media (max-width: 576px) {
+    .article-card {
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+  
+    .col-md-3 {
+      width: 100%;
+    }
+  
+    .col-md-9 {
+      width: 100%;
+    }
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    padding-bottom: 500px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  /* Active category link */
+  .sidebar a.active {
+    font-weight: bold;
+  }

@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <!-- Sidebar for listing categories -->
+      <div class="sidebar">
+        <h3>Categories</h3>
+        <ul>
+          <li (click)="getArticleCategory('all')" style="cursor: pointer;">All</li>
+          <li (click)="getArticleCategory('technology')" style="cursor: pointer;">Technology</li>
+          <li (click)="getArticleCategory('health')" style="cursor: pointer;">Health</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <!-- Add more category links as needed -->
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-9" *ngIf="showCategory">
+      <div class="article-list">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title">{{ category ? category : 'Latest' }} Articles</h2>
+          </div>
+          <div class="container">
+            <div class="article-card" *ngFor="let article of articlesCategory">
+              <img [src]="article.imageUrl" alt="{{ article.title }}" class="article-image" />
+              <h3 class="article-title">{{ article.title }}</h3>
+              <p class="article-summary">{{ article.summary }}</p>
+              <button class="read-more-button" (click)="viewArticle(article)">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <!-- Article List Component -->
+      <div class="article-list">
+        <div class="row">
+          <h2 class="section-title">Latest Articles</h2>
+        </div>
+          <div class="container">
+            <div class="article-card" *ngFor="let article of articles">
+              <img [src]="article.imageUrl" alt="{{ article.title }}" class="article-image" />
+              <h3 class="article-title">{{ article.title }}</h3>
+              <p class="article-summary">{{ article.summary }}</p>
+              <button class="read-more-button" (click)="viewArticle(article)">Read More</button>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="article-detail">
+    <div class="container">
+      <h2 class="article-title">{{ selectedArticle.title }}</h2>
+      <img [src]="selectedArticle.imageUrl" alt="{{ selectedArticle.title }}" class="article-image" />
+      <p class="article-content">{{ selectedArticle.content }}</p>
+      <button class="back-button" (click)="goBack()">Back to Articles</button>
+    </div>
+  </div>
+  
