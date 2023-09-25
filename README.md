@@ -1,6 +1,8 @@
 # BloggingPlatform
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+Blogging platform
+![Blogging platform](https://github.com/Sunbird-inQuiry/editor/assets/95395832/607e1cbf-06db-46ed-bd61-4013474bc69e)
 
 ## Development server
 
