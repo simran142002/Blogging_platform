@@ -2,8 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
 Blogging platform
-![Blogging platform](https://github.com/Sunbird-inQuiry/editor/assets/95395832/607e1cbf-06db-46ed-bd61-4013474bc69e)
-
+[demo video Blogging platform](https://github.com/Sunbird-inQuiry/editor/assets/95395832/aa2c70e5-8738-4dc9-810d-584a5dd322a5)
+![Blogging platform](https://github.com/Sunbird-inQuiry/editor/assets/95395832/b3c71f4a-36f9-44e0-aee8-1e92a502b0cb)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
