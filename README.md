@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
 Blogging platform
-[image](https://github.com/user-attachments/assets/f762b206-e719-4eed-b3b7-7f3ce60508a4)
+![image](https://github.com/user-attachments/assets/f762b206-e719-4eed-b3b7-7f3ce60508a4)
 
 [demo video Blogging platform](https://github.com/Sunbird-inQuiry/editor/assets/95395832/aa2c70e5-8738-4dc9-810d-584a5dd322a5)
 ![Blogging platform](https://github.com/Sunbird-inQuiry/editor/assets/95395832/b3c71f4a-36f9-44e0-aee8-1e92a502b0cb)
